@@ -4,7 +4,7 @@
 *{
 	box-sizing: border-box;
 }
-h1,h2,h3,h4,p,span,ul,li,a{
+h1,h2,h3,h4,p,span,ul,li,a,div{
 	font-family: $font;
 }
 
@@ -87,7 +87,7 @@ header{
 	}
 }
 
-.cont{
+.contnav{
 	background-color: $firstColor;
 	padding: 25px 0;
 	.principal{
@@ -100,6 +100,40 @@ header{
 				a{
 					text-decoration: none;
 					color: white;
+				}
+			}
+		}
+	}
+}
+
+.contprojets{
+	padding: 50px 0;
+	h2{
+		max-width: 1000px;
+		margin: 0 auto;
+		font-size: 1.3em;
+		font-weight: 900;
+		margin-bottom: 30px;	
+	}
+	.swiper-container#projets{
+		max-width: 1000px;
+		margin: 0 auto;
+		.swiper-wrapper{
+			.swiper-slide{
+				height: 332px;
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+				padding: 30px;
+				background-color: $neutralColor;
+				h3{
+					font-size: 1.2em;
+					margin: 15px 0 25px 0;
+				}
+				p{
+					text-align: center;
+					line-height: 1.3em;
 				}
 			}
 		}
