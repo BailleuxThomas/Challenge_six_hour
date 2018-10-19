@@ -135,6 +135,11 @@ header {
       .contnav .principal ul li a {
         text-decoration: none;
         color: white; }
+        .contnav .principal ul li a:hover {
+          color: #6f6049;
+          -webkit-transition: all 0.3s ease;
+          -o-transition: all 0.3s ease;
+          transition: all 0.3s ease; }
 
 .contprojets {
   padding: 50px 0; }
@@ -175,9 +180,50 @@ header {
   max-width: 1000px;
   margin: 0 auto;
   padding-bottom: 50px; }
+  .video h2 {
+    font-size: 1.3em;
+    font-weight: 900;
+    margin-bottom: 30px; }
   .video iframe {
     width: 100%;
     height: 500px; }
+  .video div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 10px; }
+    .video div div a {
+      width: 33%;
+      background-color: #EBEBEB;
+      margin-right: 20px;
+      text-decoration: none;
+      padding: 15px;
+      color: black; }
+      .video div div a:hover {
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+        -webkit-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        transition: all 0.3s ease; }
+      .video div div a h3 {
+        font-size: 1.2em;
+        font-weight: 900;
+        margin-bottom: 15px; }
+      .video div div a p {
+        line-height: 1.3em; }
+    .video div i {
+      margin-left: 30px;
+      -webkit-transition: all 0.3s ease;
+      -o-transition: all 0.3s ease;
+      transition: all 0.3s ease; }
+      .video div i:hover {
+        -webkit-transform: translateY(20px);
+        -ms-transform: translateY(20px);
+        transform: translateY(20px);
+        -webkit-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        transition: all 0.3s ease; }
 
 .contpart {
   padding: 50px 0;
@@ -207,7 +253,17 @@ header {
       -ms-flex-align: center;
       align-items: center;
       padding: 30px;
-      background-color: #EBEBEB; }
+      background-color: #EBEBEB;
+      -webkit-transition: all 0.3s ease;
+      -o-transition: all 0.3s ease;
+      transition: all 0.3s ease; }
+      .contpart .swiper-container .swiper-wrapper .swiper-slide:hover {
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+        -webkit-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        transition: all 0.3s ease; }
       .contpart .swiper-container .swiper-wrapper .swiper-slide h3 {
         font-size: 1.2em;
         margin: 15px 0 25px 0; }
