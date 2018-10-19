@@ -31,6 +31,10 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
 h1, h2, h3, h4, p, span, ul, li, a {
   font-family: "Montserrat", sans-serif; }
 
@@ -87,4 +91,47 @@ header {
       background-size: cover; }
   .wrap .descSlide {
     width: 30%;
-    background-color: #6f6049; }
+    background-color: #6f6049;
+    color: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 0 60px; }
+    .wrap .descSlide h1 {
+      font-size: 1.5em;
+      font-weight: 900;
+      margin-bottom: 30px;
+      text-align: center;
+      line-height: 1.3em; }
+      .wrap .descSlide h1 span {
+        display: block; }
+    .wrap .descSlide p {
+      text-align: center;
+      line-height: 1.3em; }
+
+.cont {
+  background-color: #e4701d;
+  padding: 25px 0; }
+  .cont .principal {
+    max-width: 1000px;
+    margin: 0 auto; }
+    .cont .principal ul {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between; }
+      .cont .principal ul li a {
+        text-decoration: none;
+        color: white; }

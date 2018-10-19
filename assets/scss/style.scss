@@ -1,6 +1,9 @@
 @import 'reset';
 @import 'variables';
 
+*{
+	box-sizing: border-box;
+}
 h1,h2,h3,h4,p,span,ul,li,a{
 	font-family: $font;
 }
@@ -60,5 +63,45 @@ header{
 	.descSlide{
 		width: 30%;
 		background-color: $secondColor;
+		color: white;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		padding: 0 60px;
+		h1{
+			font-size: 1.5em;
+			font-weight: 900;
+			margin-bottom: 30px;
+			text-align: center;
+			line-height: 1.3em;
+			span{
+				display: block;
+			}
+		}
+		p{
+			text-align: center;
+			line-height: 1.3em;
+		}
+
+	}
+}
+
+.cont{
+	background-color: $firstColor;
+	padding: 25px 0;
+	.principal{
+		max-width: 1000px;
+		margin: 0 auto;
+		ul{
+			display: flex;
+			justify-content: space-between;
+			li{
+				a{
+					text-decoration: none;
+					color: white;
+				}
+			}
+		}
 	}
 }
