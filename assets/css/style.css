@@ -30,3 +30,61 @@ q:before, q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0; }
+
+h1, h2, h3, h4, p, span, ul, li, a {
+  font-family: "Montserrat", sans-serif; }
+
+header {
+  padding: 15px 30px;
+  background-color: #EBEBEB; }
+  header nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+    header nav img {
+      width: 200px; }
+    header nav ul {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      width: 15%;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between; }
+      header nav ul li a {
+        text-decoration: none;
+        color: #6f6049; }
+      header nav ul li:first-child a {
+        color: #e4701d; }
+
+.wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  .wrap .jumbotron {
+    height: 400px;
+    width: 70%; }
+    .wrap .jumbotron .swiper-wrapper .swiper-slide:first-child {
+      background-image: url(../images/amarrage3.jpg);
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .wrap .jumbotron .swiper-wrapper .swiper-slide:nth-child(2) {
+      background-image: url(../images/slide-01.jpg);
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .wrap .jumbotron .swiper-wrapper .swiper-slide:nth-child(3) {
+      background-image: url(../images/amarrage3.jpg);
+      background-repeat: no-repeat;
+      background-size: cover; }
+  .wrap .descSlide {
+    width: 30%;
+    background-color: #6f6049; }

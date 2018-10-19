@@ -1,2 +1,64 @@
 @import 'reset';
 @import 'variables';
+
+h1,h2,h3,h4,p,span,ul,li,a{
+	font-family: $font;
+}
+
+header{
+	padding: 15px 30px;
+	background-color: $neutralColor;
+	nav{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		img{
+			width: 200px;
+		}
+		ul{
+			display: flex;
+			align-items: center;
+			width: 15%;
+			justify-content: space-between;
+			li{
+				a{
+					text-decoration: none;
+					color: $secondColor;
+				}
+			}
+			li:first-child{
+				a{
+					color: $firstColor;
+				}
+			}
+		}
+	}
+}
+.wrap{
+	display: flex;
+	.jumbotron{
+		height: 400px;
+		width: 70%;
+		.swiper-wrapper{
+			.swiper-slide:first-child{
+				background-image: url(../images/amarrage3.jpg);
+				background-repeat: no-repeat;
+				background-size: cover;
+			}
+			.swiper-slide:nth-child(2){
+				background-image: url(../images/slide-01.jpg);
+				background-repeat: no-repeat;
+				background-size: cover;
+			}
+			.swiper-slide:nth-child(3){
+				background-image: url(../images/amarrage3.jpg);
+				background-repeat: no-repeat;
+				background-size: cover;
+			}
+		}
+	}
+	.descSlide{
+		width: 30%;
+		background-color: $secondColor;
+	}
+}
