@@ -1,0 +1,272 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after {
+  content: '';
+  content: none; }
+
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+h1, h2, h3, h4, p, span, ul, li, a, div {
+  font-family: "Montserrat", sans-serif; }
+
+header {
+  padding: 15px 30px;
+  background-color: #EBEBEB; }
+  header nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+    header nav img {
+      width: 200px; }
+    header nav ul {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      width: 15%;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between; }
+      header nav ul li a {
+        text-decoration: none;
+        color: #6f6049; }
+      header nav ul li:first-child a {
+        color: #e4701d; }
+
+.wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  .wrap .jumbotron {
+    height: 400px;
+    width: 70%; }
+    .wrap .jumbotron .swiper-wrapper .swiper-slide:first-child {
+      background-image: url(../images/amarrage3.jpg);
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .wrap .jumbotron .swiper-wrapper .swiper-slide:nth-child(2) {
+      background-image: url(../images/slide-01.jpg);
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .wrap .jumbotron .swiper-wrapper .swiper-slide:nth-child(3) {
+      background-image: url(../images/amarrage3.jpg);
+      background-repeat: no-repeat;
+      background-size: cover; }
+  .wrap .descSlide {
+    width: 30%;
+    background-color: #6f6049;
+    color: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 0 60px; }
+    .wrap .descSlide h1 {
+      font-size: 1.5em;
+      font-weight: 900;
+      margin-bottom: 30px;
+      text-align: center;
+      line-height: 1.3em; }
+      .wrap .descSlide h1 span {
+        display: block; }
+    .wrap .descSlide p {
+      text-align: center;
+      line-height: 1.3em; }
+
+.contnav {
+  background-color: #e4701d;
+  padding: 25px 0; }
+  .contnav .principal {
+    max-width: 1000px;
+    margin: 0 auto; }
+    .contnav .principal ul {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between; }
+      .contnav .principal ul li a {
+        text-decoration: none;
+        color: white; }
+        .contnav .principal ul li a:hover {
+          color: #6f6049;
+          -webkit-transition: all 0.3s ease;
+          -o-transition: all 0.3s ease;
+          transition: all 0.3s ease; }
+
+.contprojets {
+  padding: 50px 0; }
+  .contprojets h2 {
+    max-width: 1000px;
+    margin: 0 auto;
+    font-size: 1.3em;
+    font-weight: 900;
+    margin-bottom: 30px; }
+  .contprojets .swiper-container#projets {
+    max-width: 1000px;
+    margin: 0 auto; }
+    .contprojets .swiper-container#projets .swiper-wrapper .swiper-slide {
+      height: 332px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      padding: 30px;
+      background-color: #EBEBEB; }
+      .contprojets .swiper-container#projets .swiper-wrapper .swiper-slide h3 {
+        font-size: 1.2em;
+        margin: 15px 0 25px 0; }
+      .contprojets .swiper-container#projets .swiper-wrapper .swiper-slide p {
+        text-align: center;
+        line-height: 1.3em; }
+
+.video {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding-bottom: 50px; }
+  .video h2 {
+    font-size: 1.3em;
+    font-weight: 900;
+    margin-bottom: 30px; }
+  .video iframe {
+    width: 100%;
+    height: 500px; }
+  .video div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 10px; }
+    .video div div a {
+      width: 33%;
+      background-color: #EBEBEB;
+      margin-right: 20px;
+      text-decoration: none;
+      padding: 15px;
+      color: black; }
+      .video div div a:hover {
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+        -webkit-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        transition: all 0.3s ease; }
+      .video div div a h3 {
+        font-size: 1.2em;
+        font-weight: 900;
+        margin-bottom: 15px; }
+      .video div div a p {
+        line-height: 1.3em; }
+    .video div i {
+      margin-left: 30px;
+      -webkit-transition: all 0.3s ease;
+      -o-transition: all 0.3s ease;
+      transition: all 0.3s ease; }
+      .video div i:hover {
+        -webkit-transform: translateY(20px);
+        -ms-transform: translateY(20px);
+        transform: translateY(20px);
+        -webkit-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        transition: all 0.3s ease; }
+
+.contpart {
+  padding: 50px 0;
+  background-color: #e4701d; }
+  .contpart h2 {
+    max-width: 1000px;
+    margin: 0 auto;
+    font-size: 1.3em;
+    font-weight: 900;
+    margin-bottom: 30px; }
+  .contpart .swiper-container {
+    max-width: 1000px;
+    margin: 0 auto; }
+    .contpart .swiper-container .swiper-wrapper .swiper-slide {
+      height: 160px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      padding: 30px;
+      background-color: #EBEBEB;
+      -webkit-transition: all 0.3s ease;
+      -o-transition: all 0.3s ease;
+      transition: all 0.3s ease; }
+      .contpart .swiper-container .swiper-wrapper .swiper-slide:hover {
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+        -webkit-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        transition: all 0.3s ease; }
+      .contpart .swiper-container .swiper-wrapper .swiper-slide h3 {
+        font-size: 1.2em;
+        margin: 15px 0 25px 0; }
+      .contpart .swiper-container .swiper-wrapper .swiper-slide p {
+        text-align: center;
+        line-height: 1.3em; }
